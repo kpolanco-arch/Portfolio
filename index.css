@@ -13,6 +13,7 @@
     min-height: 72px;
     padding-left: 4%;
     padding-right: 4%;
+    padding-bottom: 15px;
 }
 
 .nav-tabs-left ul {
@@ -310,7 +311,7 @@ margin: 10px;
         font-family: Inconsolata, monospace;
             justify-content: center;
             /* font-weight: 600; */
-            font-size: 35px;
+            font-size: 32px;
             margin-left: 4%;
             margin-bottom: 87px;}
 
@@ -327,4 +328,35 @@ a:link {
 a:visited {
     text-decoration: none;
     color: inherit;
+}
+
+h1 {
+    color: #000000;
+    font-weight: 500;
+    color: #000000;
+        font-weight: 500;
+        padding-left: 20px;
+    
+}
+.h1text {
+    color: #000000;
+        font-weight: 500;
+        font-size: 32px;
+        margin: 0px;
+}
+
+.animated-text {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
 }

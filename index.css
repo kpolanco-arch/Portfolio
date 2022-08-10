@@ -52,6 +52,8 @@ position: relative;
 .body-intro {
     padding-left: 4%;
     padding-right: 4%;
+justify-content: space-between;
+    display: flex;
 }
 
 .body-text  {
@@ -359,4 +361,26 @@ span {
     50% {
         border-color: transparent;
     }
+}
+
+.body-image {
+width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 37px;
+    border-width: 5px;
+    border: solid;
+}
+.image-one{
+    height: 100%;
+    background-size: cover;
+    background-image: url("assets/C29A352D-9247-4298-A2A7-FAF047FF2366_1_105_c.jpeg");
+}
+
+.image {
+    /* border: 2px solid #000000; */
+    width: 110%;
+    border-radius: 50%;
+    /* background-color: black; */
 }

@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
     <nav>
@@ -20,10 +21,10 @@
                     <ul> Karen Polanco</ul>
                 </div>
                 <div class="nav-tabs-right"> 
-                    <ul>projects</ul>
-                    <ul>design</ul>
+                    <ul id="projects">projects</ul>
+                    <ul id="design">design</ul>
                     <ul>about</ul>
-                    <a href="http://">
+                    <a target="_blank" rel="noopener noreferrer" href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:d18f3ac4-21ef-31bd-9d16-3996b982784d">
                         <ul>resume</ul>
                     </a>
                 </div>
@@ -38,7 +39,7 @@
         </div>
     </div>
     <div class="divider" ></div>
-    <div class="body-text-title" >Selected Works</div>
+    <div class="body-text-title" id="selected-works" >Selected Works</div>
 
     <!-- <div class="gallery-container">
         <div class="gallery">
@@ -113,7 +114,7 @@
         <div class="divider"></div>
         <div class="body-text-title">My Previous Work!</div>
         <!-- <embed src="assets/Portfolio_Karen Polanco_Sample_Small_02.pdf" width="500" height="375" type="application/pdf"> -->
-        <div class="embeded-pdf">
+        <div class="embeded-pdf" id="embeded-pdf">
             <iframe src="assets/Portfolio_Karen Polanco_Sample_Small_02.pdf"
                 style="width:1018px; height:500px; border: 2px solid black;" frameborder="0"></iframe>
         </div>

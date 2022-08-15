@@ -415,3 +415,53 @@ width: 250px;
     text-decoration: none;
     color: white;
 }
+
+.contact-info-section {
+    background-color: #000000;
+        margin: 0 -8px;
+    height: 240px;
+}
+
+body .contact-info-section {
+        left: 0;
+        bottom: 0;
+}
+
+.contact-info-section .body-text-title{
+    color: white;
+    padding-top: 87px;
+    margin-bottom: 0;
+}
+
+.body-text-title-2 {
+    font-family: Inconsolata, monospace;
+    justify-content: center;
+    font-size: 32px;
+    margin-left: 4%;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.selected-skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-text {
+    font-family: Inconsolata, monospace;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 151px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 21px;
+    margin: 20px;
+}
+
+.selected-skills-container .divider {
+    background-color: transparent;
+}

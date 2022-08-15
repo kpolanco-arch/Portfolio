@@ -364,8 +364,8 @@ span {
 }
 
 .body-image {
-width: 250px;
-    /* height: 250px; */
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     margin-left: 37px;
@@ -401,6 +401,7 @@ width: 250px;
         width: 119px;
         border-radius: 20px;
         color: white;
+        cursor: pointer;
 }
 
 .links-container {

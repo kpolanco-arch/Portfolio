@@ -364,18 +364,19 @@ span {
 }
 
 .body-image {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     overflow: hidden;
-    margin-left: 37px;
+    margin-right: 37px;
     border-width: 5px;
     border: solid;
+    min-width: 350px;
 }
 .image-one{
     height: 100%;
     background-size: cover;
-    background-image: url("assets/C29A352D-9247-4298-A2A7-FAF047FF2366_1_105_c.jpeg");
+    background-image: url("assets/50291313_2323852077848282_4473409073886265344_n.jpg");
 }
 
 .image {
@@ -465,4 +466,20 @@ body .contact-info-section {
 
 .selected-skills-container .divider {
     background-color: transparent;
+}
+
+.h1text-about {
+color: #000000;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.body-about {
+    padding-left: 4%;
+    padding-right: 4%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }

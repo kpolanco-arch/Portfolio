@@ -395,7 +395,7 @@ span {
     font-family: Inconsolata, monospace;
         background-color: black;
         height: 29px;
-       
+        padding-inline: 8px;
         justify-content: center;
         align-items: center;
         display: flex;
